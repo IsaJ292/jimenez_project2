@@ -2,10 +2,20 @@ body{
     background-color:burlywood;
     color:#B52114
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h2{
     color:#004515;
     font-size: 40px;
     font-weight: bold;
+    transform: rotate(-180deg);
+    transition-duration: 8s;
+}
+h2:hover{
+transform: none;
 }
 h3{
     text-align: center;
